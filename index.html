@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Frehat<span>.Dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="image port.jpeg" alt="Abdallah Frehat">
+        </div>
+        <div class="hero-content">
+            <h1>Welcome, I'm <span>Abdallah Frehat</span></h1>
+            <h2>Software Engineer | Full Stack Developer</h2>
+            <p>Specialized in building web applications and managing databases using C#, ASP.NET Core, Node.js, and PostgreSQL.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="CV_Abdallah_Frehat.pdf" download class="btn btn-outline">
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section bg-alt">
+        <h2 class="section-title">Education & Academic Certifications</h2>
+        <div class="certs-grid">
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="cert-content">
+                    <h3>Bachelor's Degree in Software Engineering</h3>
+                    <p class="cert-org">Amman Arab University</p>
+                    <span class="cert-date">2025 | GPA: 3.29/4.00 (Very Good)</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>ASP.NET Core Full Stack Development</h3>
+                    <p class="cert-org">Professional Training</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="cert-content">
+                    <h3>ASP.NET MVC Full Stack Development</h3>
+                    <p class="cert-org">The Hope International</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="cert-content">
+                    <h3>HTML Development</h3>
+                    <p class="cert-org">Orange Coursat</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-palette"></i></div>
+                <div class="cert-content">
+                    <h3>CSS Development</h3>
+                    <p class="cert-org">Orange Coursat</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-brands fa-js"></i></div>
+                <div class="cert-content">
+                    <h3>JavaScript Development</h3>
+                    <p class="cert-org">Orange Coursat</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <div class="cert-content">
+                    <h3>Data Analysis Workshop</h3>
+                    <p class="cert-org">Masna3 Tech</p>
+                    <span class="cert-date">2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Software Engineering graduate dedicated to designing and building integrated, fast, and secure software solutions and web applications, with advanced skills in databases, Backend, and Frontend development.</p>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-microsoft"></i> C# / .NET Core</div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i> PostgreSQL & Entity Framework</div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript & HTML5/CSS3</div>
+            <div class="skill-card"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Software Projects (12 Projects)</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All (12)</button>
+            <button class="filter-btn" data-filter="dotnet">.NET / C#</button>
+            <button class="filter-btn" data-filter="javascript">JavaScript / Web</button>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Impact HR Platform (Employee Management System)</h3>
+                    <p>An integrated web application for employee management and administrative operations (attendance, leaves, payroll) with role-based authorization and advanced reporting (Graduation Project).</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET Core</span>
+                        <span>C#</span>
+                        <span>Razor Pages</span>
+                        <span>EF Core</span>
+                        <span>SQLite</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/Platform_Impact_HR" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Food Delivery Web Application</h3>
+                    <p>A comprehensive food ordering platform featuring route protection, session management, and complex relational databases for orders and users.</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET Core</span>
+                        <span>C#</span>
+                        <span>Razor Pages</span>
+                        <span>EF Core</span>
+                        <span>SQLite</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/Food_Delivery" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Expense Tracker Web Application</h3>
+                    <p>A personal expense management web app featuring robust RESTful APIs integrated with a PostgreSQL database and dynamic UI updates.</p>
+                    <div class="tech-stack">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>PostgreSQL</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/expense-tracker" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Online Exam System</h3>
+                    <p>An electronic system for managing exams, questions, and student results built on the MVC architectural pattern with role management for teachers and students.</p>
+                    <div class="tech-stack">
+                        <span>ASP.NET MVC</span>
+                        <span>C#</span>
+                        <span>SQL</span>
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/Online-Exam" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Student Dashboard (Dalil Academy)</h3>
+                    <p>An interactive, modern dashboard interface for students featuring sleek design and smooth navigation to track academic courses and lessons.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap 5</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/Student-Dashboard-Front-End-" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Horizon Park Management System</h3>
+                    <p>A C# Console application for amusement park operations management (ticket issuance, ride capacity validation, and reservations).</p>
+                    <div class="tech-stack">
+                        <span>C#</span>
+                        <span>OOP</span>
+                        <span>Console App</span>
+                        <span>Data Validation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/horizon-park-management-system" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Job Board Demo Platform</h3>
+                    <p>An interactive job posting and recruitment platform featuring smooth UI animations and a fully responsive design across all screen sizes.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>UI Animations</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/Job-Board-Demo" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Car Rental Search Interface</h3>
+                    <p>An interactive search interface for car rentals allowing users to specify pickup locations, dates, and driver ages with an elegant, simplified design.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Bootstrap 5</span>
+                        <span>FontAwesome</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/car-rental-newl" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Candle E-Commerce Store</h3>
+                    <p>An interactive e-commerce store featuring real-time product filtering, instant search functionality, and a fully interactive shopping cart.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Flexbox/Grid</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/candles" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="javascript">
+                <div class="project-content">
+                    <h3>Skyline Web Development Project</h3>
+                    <p>A web application connecting front-end interfaces with backend servers and database queries alongside dynamic data processing.</p>
+                    <div class="tech-stack">
+                        <span>PHP</span>
+                        <span>SQL</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/abdallah-Frehat" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Airport Ground Operations System</h3>
+                    <p>A C# application for airport ground operations (gate allocation, booking, and baggage management) using object-oriented programming and data structures.</p>
+                    <div class="tech-stack">
+                        <span>C#</span>
+                        <span>OOP</span>
+                        <span>Data Structures</span>
+                        <span>Console App</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/airport-ground-ops-system" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="dotnet">
+                <div class="project-content">
+                    <h3>Space War – 2D Desktop Game</h3>
+                    <p>A 2D desktop arcade game built using object-oriented programming (OOP), collision detection logic algorithms, and direct user interaction.</p>
+                    <div class="tech-stack">
+                        <span>C#</span>
+                        <span>.NET Framework</span>
+                        <span>WinForms</span>
+                        <span>OOP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/abdallah-Frehat/C-_Space-War" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="from_name">Name</label>
+                <input type="text" id="from_name" name="from_name" placeholder="Your Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="from_email">Email</label>
+                <input type="email" id="from_email" name="from_email" placeholder="example@domain.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn">Send Message</button>
+        </form>
+        <p id="form-status" class="form-status"></p>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Abdallah Frehat. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/abdallah-Frehat" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/abdallah-frehat-904857312/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:abdallahfrehat@623@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "_mJ7Oe_2N-ZjPwrGm",
+            });
+        })();
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
