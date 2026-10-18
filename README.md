@@ -1,10 +1,10 @@
-# 🚀 Personal Portfolio | Software Engineer
+#  Personal Portfolio | Software Engineer
 
 Welcome to the official repository of my personal portfolio website! This platform showcases my education, technical skills, and 12 featured software projects specializing in Full-Stack Web Development, .NET, and modern web technologies.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Front-End:** HTML5, CSS3, JavaScript, Bootstrap 5, FontAwesome
 - **Back-End:** C#, ASP.NET Core, ASP.NET MVC, Node.js, Express.js
@@ -13,7 +13,7 @@ Welcome to the official repository of my personal portfolio website! This platfo
 
 ---
 
-## 🎓 Education & Certifications
+##  Education & Certifications
 
 - **Bachelor's Degree in Software Engineering** – Amman Arab University (2025 | GPA: 3.29/4.00 - Very Good)
 - **ASP.NET Core Full Stack Development** – Professional Training (2026)
@@ -37,7 +37,7 @@ This portfolio highlights 12 diverse software projects, including:
 
 ---
 
-## 📬 Contact Me
+## 📬Contact Me
 
 - **Email:** abdallahfrehat@623@gmail.com
 - **LinkedIn:** [Abdallah Frehat](https://www.linkedin.com/in/abdallah-frehat-904857312/)
